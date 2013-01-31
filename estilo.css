@@ -1,0 +1,62 @@
+body{
+	font-family:Arial;
+	font-size:14px;
+}
+
+#cuerpo{
+	margin:0 auto;
+	max-width:980px;
+}
+
+#cuerpo header{
+	background:#CCC;
+	border-bottom:1px solid #666;
+	padding:10px;
+	text-align:center;
+}
+
+#cuerpo header h1{
+	font-size:4em;
+	margin:0;
+}
+
+#cuerpo header p{
+	font-size:2em;
+	margin:1em;
+}
+
+#cuerpo #contenido{
+	 background:#CCC;
+	 padding:10px;
+}
+
+#cuerpo #contenido article{
+	background:#FFF;
+	border-bottom:1px solid #CCC;
+	padding:5px;
+}
+
+#cuerpo footer{
+	background:#CCC;
+	padding:10px;
+}
+
+@media screen and (max-width: 980px){
+    /* propiedades CSS a aplicar en ventanas de 980px o menos */
+}
+@media screen and (max-width: 650px){
+    /* propiedades CSS a aplicar en ventanas de 650px o menos */
+    #cuerpo header h1{
+	font-size:2em;
+	}
+
+	#cuerpo header p{
+		font-size:1em;
+	}
+}
+@media screen and (max-width: 480px) {
+    /* propiedades CSS a aplicar en ventanas de 480px o menos */
+    #cuerpo #contenido article h2{
+    	font-size:1.2em;
+	}
+}

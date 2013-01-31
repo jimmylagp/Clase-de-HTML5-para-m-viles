@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+ 
+<head>
+<title>Titulo de la web</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width , initial-scale=1 ,maximum-scale=1" />
+<link rel="stylesheet" href="estilo.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="alternate" title="Mi sitio web RSS" type="application/rss+xml" href="/feed.rss" />
+</head>
+ 
+<body>
+  <section id="cuerpo">
+    <header>
+       <h1>Mi sitio web</h1>
+       <p>Mi sitio web creado en html5</p>
+    </header>
+    <section id="contenido">
+       <article>
+           <div itemscope itemtype ="http://schema.org/Movie">
+            <h2 itemprop="name">Inception</h2>
+              <div itemprop="director" itemscope itemtype="http://schema.org/Person">
+              Director: <span itemprop="name">Christopher Nolan</span>
+              </div>
+              <span itemprop="genre">Ciencia Ficción</span>
+              <a href="http://www.youtube.com/watch?v=8hP9D6kZseM" itemprop="trailer">Trailer</a>
+          </div>
+       </article>
+        <article>
+           <h2>Lista de Películas</h2>
+            <ul>
+              <li data-id="1">Inception</li>
+              <li data-id="2"><a href="#" rel="categories" title="Tron">Tron</a></li>
+            </ul>
+        </article>
+        <article>
+          <h2>Lorem Ipsum is simply dummy text of the printing </h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </article>
+    </section>
+    <footer>
+        Creado por mi el 2011
+    </footer>
+  </section>
+</body>
+</html>
